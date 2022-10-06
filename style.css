@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.wrapper{
+    background-image: url("https://i.pinimg.com/originals/1b/de/6e/1bde6e85c5e1665e0c4094c0cf0e2362.jpg");
+    padding: 20px 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: 'Mitr', sans-serif;
+    background-color: white;
+}
+
+p.bio{
+    text-align: center;
+}
+
+hr{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+img.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.name{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span.slogan{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgba(51, 51, 51, 0.7);
+    margin-bottom: 35px;
+}
+
+.social-img ul{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.social-img ul li{
+    display: inline;
+    background-color: rgb(204, 204, 204,0.5);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+
+.social-img ul li:hover{
+    background-color: #ccc;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.work{
+    margin-bottom: 20px;
+}
+
+.work a img:hover{
+    transition: ease-in-out 150ms;
+    filter: blur(2px);
+}
+
+.work p{
+    text-align: center;
+    font-weight: bold;
+    
+}
